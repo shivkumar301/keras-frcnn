@@ -7,7 +7,8 @@ import numpy as np
 from optparse import OptionParser
 import pickle
 
-from keras import backend as K
+# from keras import backend as K
+from tensorflow.keras import backend as K
 from keras.optimizers import Adam, SGD, RMSprop
 from keras.layers import Input
 from keras.models import Model
