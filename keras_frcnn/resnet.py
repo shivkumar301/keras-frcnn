@@ -11,7 +11,7 @@ from __future__ import absolute_import
 from keras.layers import Input, Add, Dense, Activation, Flatten, Convolution2D, MaxPooling2D, ZeroPadding2D, \
     AveragePooling2D, TimeDistributed
 
-from keras import backend as K
+from tf.keras import backend as K
 
 from keras_frcnn.RoiPoolingConv import RoiPoolingConv
 from keras_frcnn.FixedBatchNormalization import FixedBatchNormalization
